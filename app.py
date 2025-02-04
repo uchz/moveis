@@ -23,3 +23,4 @@ if pesquisa:
         st.dataframe(resultados)
     else:
         st.warning("Nenhum produto encontrado.")
+        
