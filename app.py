@@ -4,7 +4,7 @@ import pandas as pd
 # Carregar os dados do Excel
 @st.cache_data
 def carregar_dados():
-    df = pd.read_excel("moveis.xlsx")  # Substitua pelo nome correto do arquivo
+    df = pd.read_excel("moveis2.xlsx")  # Substitua pelo nome correto do arquivo
     return df[["Nome", "Preço Final",'Cor']]  # Mantém apenas as colunas desejadas
 
 df = carregar_dados()
